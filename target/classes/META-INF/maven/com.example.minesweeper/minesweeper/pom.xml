@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.minesweeper</groupId>
+  <artifactId>minesweeper</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Mine-Sweeper</name>
+  
+  <properties>
+  	<maven.compiler.source>8</maven.compiler.source>
+  	<maven.compiler.target>8</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.10.3</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>3.12.4</version> <!-- or latest version -->
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.github.stefanbirkner/system-rules -->
+<dependency>
+    <groupId>com.github.stefanbirkner</groupId>
+    <artifactId>system-rules</artifactId>
+    <version>1.19.0</version>
+    <scope>test</scope>
+</dependency>
+
+  </dependencies>
+</project>
